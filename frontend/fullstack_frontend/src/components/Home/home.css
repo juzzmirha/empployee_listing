@@ -1,0 +1,85 @@
+.home {
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.home_title{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 65px;
+    color: #585474;
+}
+.add_btn button{
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 7px;
+    padding: 6px 20px;
+    margin-left: 30%;
+    background-color: #656DED;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.user_table {
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 0%;
+}
+
+.user_table th, .user_table td {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    text-align: left;
+    padding: 8px;
+}
+
+.user_table th {
+    background-color: #f2f2f2;
+}
+
+.user_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.home_link {
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    overflow-x: auto;
+}
+
+.home_link a {
+    text-decoration: none;
+    color: black;
+    margin: 5px 10px;
+    transition: 0.2s linear;
+}
+
+.home_link a:hover {
+    opacity: 0.7;
+}
+/* ADD  */
+.addUser {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    width: 500px;
+}
+.add_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add input{
+    margin: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px 10px;
+}
